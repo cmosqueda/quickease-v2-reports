@@ -56,6 +56,7 @@ _All contents in this section are the consolidated TLDRs from each test categori
 - ✅ Navigation (e.g., back to Flashcards module) is seamless.
 - ✅ Visibility toggling works with proper backend response.
 - ⚠️ Flashcard sharing feature is not yet implemented.
+- 🤚 **Suggestion by Tilan:** Consider adding keyboard controls in flashcards (e.g., spacebar to flip, arrow keys to navigate).
 
 [**FORUMS**](./forums/aug-3-2025.md)
 
@@ -66,11 +67,20 @@ _All contents in this section are the consolidated TLDRs from each test categori
 - ✅ Users can report posts and comments — however, users can currently report their own comments, which should be restricted.
 - ✅ Search and filter features (by newest, top votes, comments) work smoothly.
 - ⚠️ Categorization by tags is not yet implemented, but partially handled via search.
+- ✋ Suggestions on Post Creation (Tilan):
+  - Back button behavior, it should return to forum overview instead of remaining on the post page.
+  - Add a confirmation button after selecting attachments to ensure user confidence.
+- ✋ Suggestions on comments (Baraocor)
+  - add a confirm pop button to the delete button to be more user friendly.
+  - include the edit option to the 3 dot menu of the reply comment to be minimalist.
+  - add a confirm pop button to the delete button to be more user friendly.
 
 [**GENERATIVE-AI**](./generative-ai/aug-3-2025.md)
 
 - ✅ Note Generation from Document works with minor delay; suggestion: add a loading indicator and success toast.
+  - update: ⚠️ (Tilan) Document-based summary generation (AI002)FAILED — Summary note generation from uploaded documents produces blank output.
 - ⚠️ Note Generation from Image is not yet implemented.
+  - ✅ (update) Note Generation from image now works properly (Tested Aug. 4, 2025 by Tilan)
 - ✅ Flashcard Generation from Notes & Documents works properly; some delay noted but acceptable.
 - ✅ Quiz Generation from Notes & Documents works accurately; generation is slightly faster than other AI processes.
 - ⚠️ General Suggestion: Add visual feedback (e.g., loading screen or toast) during and after generation for better user experience.
@@ -87,7 +97,7 @@ _All contents in this section are the consolidated TLDRs from each test categori
 - ✅ Users can create, edit, view, and delete notes successfully.
 - ✅ All markdown editor features work as expected.
 - ✅ Notes save and load correctly, with both manual and AI-generated types supported.
-- ✅ Functional buttons and navigation (e.g., back to Library) respond smoothly.
+- ⚠️ Navigation (e.g., back to Library) and functional buttons respond smoothly, except **Study Options**, which are partially functional or under development
 - ✅ Toggling note visibility is working and responsive.
 - ✅ All actions show correct API responses with fast load times.
 - ⚠️ Note sharing feature is not yet implemented.
@@ -108,9 +118,11 @@ _All contents in this section are the consolidated TLDRs from each test categori
 - ✅ Ellipsis icon renders properly and its delete option functions as expected.
 - ✅ Editing also works for AI-generated quizzes.
 - ⚠️ Sharing and quiz visibility/privacy features are not yet implemented.
+- ✋ UX Suggestion (Tilan): Use shaded circles for single-answer questions and visual indicators for answered and unanswered items to improve clarity and user experience.
 
 [**SETTINGS**](./settings/aug-3-2025.md)
 
 - ✅ Users can successfully change theme, email, name, and password.
 - ✅ All settings updates function properly with no errors.
 - ✅ Theme changes render correctly; account detail changes reflect as expected.
+- ✅ Can process email verification
