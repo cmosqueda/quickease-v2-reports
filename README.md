@@ -32,6 +32,11 @@ root-folder/ 		             => the top-level folder directory
 - ERROR ENCOUNTERED (You can find hints on console logs or network tabs at inspect browser)
 - FEEDBACK/SUGGESTIONS
 
+## OTHER TESTER'S REPO
+
+- [**Sherri Tilan**](https://github.com/Tsherii/quickease_2.0-reports)
+- [**Jalanie Baraocor**](https://github.com/jiyuutheosum/quickease_2.0-reports)
+
 ## CONSOLIDATED LATEST REPORTS (AS OF AUGUST 3, 2025)
 
 _All contents in this section are the consolidated TLDRs from each test categories. This will be updated for every test iterations_
