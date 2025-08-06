@@ -75,9 +75,9 @@ _All contents in this section are the consolidated TLDRs from each test categori
 
 - ⚠️ **Failures/Not done:**
 
-  - AD006: Delete user – Not implemented
-  - AD010: Search reports – Not implemented
-  - AD012: Delete user via report – Failed (404)
+  - Delete user (manage users) – Not implemented
+  - Search reports (manage reports) – Not implemented
+  - Delete user via report management – Failed (404)
 
 - 💡 **Suggestions:** Add severity rating + resolve button for reports, log resolved reports for future moderation.
 
