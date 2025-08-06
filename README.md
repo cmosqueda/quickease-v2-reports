@@ -32,102 +32,74 @@ root-folder/ 		             => the top-level folder directory
 - ERROR ENCOUNTERED (You can find hints on console logs or network tabs at inspect browser)
 - FEEDBACK/SUGGESTIONS
 
+## BLANK TEMPLATE
+
+````
+# CODE:
+
+- **DESCRIPTION:**
+- **STATUS:**
+- **ERROR ENCOUNTERED:**
+- **FEEDBACK/SUGGESTIONS:**
+
+<!-- if necessary -->
+- **NETWORK TAB RESULTS:**
+  - **ACTION PERFORMED:**
+  - **RESULTS:**
+  ```
+  name:
+  status:
+  type:
+  response:
+  size:
+  time:
+  ```
+
+
+````
+
 ## OTHER TESTER'S REPO
 
 - [**Sherri Tilan**](https://github.com/Tsherii/quickease_2.0-reports)
 - [**Jalanie Baraocor**](https://github.com/jiyuutheosum/quickease_2.0-reports)
 
-## CONSOLIDATED LATEST REPORTS (AS OF AUGUST 3, 2025)
+## CONSOLIDATED LATEST REPORTS (AS OF AUGUST 6, 2025)
 
 _All contents in this section are the consolidated TLDRs from each test categories. This will be updated for every test iterations_
 
-[**AUTH**](./auth/aug-3-2025.md)
+[**ADMIN**](./admin/aug-6-2025.md)
 
-- ✅ Login, Register, and Logout functionalities work properly with fast, responsive UI and no errors.
-- ✅ Error-handling (via toasts/popups) is user-friendly and clearly communicates issues.
-- ✅ Navigation between login/register screens is seamless.
-- ✅ Security checks (e.g., valid credentials, no duplicate emails) are correctly enforced.
-- ✅ Client-side validation ensures all required fields are completed before proceeding.
-- ⚠️ Forgot Password functionality is not yet implemented.
-- 📶 Network responses for login, register, and logout confirm fast and successful operations.
+- ✅ **All core features passed:** login, user search/view/edit, report viewing, email actions.
 
-[**FLASHCARDS**](./flashcards/aug-3-2025.md)
+- ⚠️ **Minor issue:** Email delivery is delayed.
 
-- ✅ Users can manually create, view, edit, and delete flashcard sets successfully.
-- ✅ Flashcard previews (front and back) display accurate data and render properly.
-- ✅ Card flip animation works smoothly and enhances user experience.
-- ✅ Editing works for both manually created and AI-generated flashcards.
-- ✅ Ellipsis menu (for delete and visibility toggle) functions correctly.
-- ✅ Navigation (e.g., back to Flashcards module) is seamless.
-- ✅ Visibility toggling works with proper backend response.
-- ⚠️ Flashcard sharing feature is not yet implemented.
-- 🤚 **Suggestion by Tilan:** Consider adding keyboard controls in flashcards (e.g., spacebar to flip, arrow keys to navigate).
+- ⚠️ **Failures/Not done:**
 
-[**FORUMS**](./forums/aug-3-2025.md)
+  - AD006: Delete user – Not implemented
+  - AD010: Search reports – Not implemented
+  - AD012: Delete user via report – Failed (404)
 
-- ✅ Users can create, edit, and delete posts successfully.
-- ✅ Users can attach notes and flashcards to posts. (Quiz attachment pending visibility feature.)
-- ✅ Voting (upvote/downvote) on posts and comments works as expected.
-- ✅ Commenting and threaded replies function properly.
-- ✅ Users can report posts and comments — however, users can currently report their own comments, which should be restricted.
-- ✅ Search and filter features (by newest, top votes, comments) work smoothly.
-- ⚠️ Categorization by tags is not yet implemented, but partially handled via search.
-- ✋ Suggestions on Post Creation (Tilan):
-  - Back button behavior, it should return to forum overview instead of remaining on the post page.
-  - Add a confirmation button after selecting attachments to ensure user confidence.
-- ✋ Suggestions on comments (Baraocor)
-  - add a confirm pop button to the delete button to be more user friendly.
-  - include the edit option to the 3 dot menu of the reply comment to be minimalist.
-  - add a confirm pop button to the delete button to be more user friendly.
+- 💡 **Suggestions:** Add severity rating + resolve button for reports, log resolved reports for future moderation.
 
-[**GENERATIVE-AI**](./generative-ai/aug-3-2025.md)
+[**AUTH**](./auth/aug-6-2025.md)
 
-- ✅ Note Generation from Document works with minor delay; suggestion: add a loading indicator and success toast.
-  - update: ⚠️ (Tilan) Document-based summary generation (AI002)FAILED — Summary note generation from uploaded documents produces blank output.
-- ⚠️ Note Generation from Image is not yet implemented.
-  - ✅ (update) Note Generation from image now works properly (Tested Aug. 4, 2025 by Tilan)
-- ✅ Flashcard Generation from Notes & Documents works properly; some delay noted but acceptable.
-- ✅ Quiz Generation from Notes & Documents works accurately; generation is slightly faster than other AI processes.
-- ⚠️ General Suggestion: Add visual feedback (e.g., loading screen or toast) during and after generation for better user experience.
+- Forgot password flow (L007) works.
+- Password reset email sends successfully.
 
-[**LIBRARY**](./library/aug-3-2025.md)
+[**FLASHCARDS**](./flashcards/aug-6-2025.md)
 
-- ✅ Search functionality returns accurate results.
-- ✅ Learner materials (notes, flashcards, quizzes) are fetched and displayed correctly.
-- ✅ Filtering between AI-generated and user-created materials works as expected.
-- ✅ No errors encountered in any of the tests.
+- Keyboard controls now implemented
 
-[**NOTES**](./notes/aug-3-2025.md)
+[**FORUMS**](./forums/aug-6-2025.md)
 
-- ✅ Users can create, edit, view, and delete notes successfully.
-- ✅ All markdown editor features work as expected.
-- ✅ Notes save and load correctly, with both manual and AI-generated types supported.
-- ⚠️ Navigation (e.g., back to Library) and functional buttons respond smoothly, except **Study Options**, which are partially functional or under development
-- ✅ Toggling note visibility is working and responsive.
-- ✅ All actions show correct API responses with fast load times.
-- ⚠️ Note sharing feature is not yet implemented.
+- Notifications modal (NF001) works.
+- Mark as read (NF002) works, but updates only after page refresh.
 
-[**POMODORO**](./pomodoro/aug-3-2025.md)
+[**NOTES**](./notes/aug-6-2025.md)
 
-- ✅ Can customize timers
-- ✅ Can enable or disable pomodoro popup display
-- ✅ Can toggle persistent screen display
+- Study option buttons (LN005) are now functional. Generating quiz and flashcards from notes works and can be successfully saved via clicking study options.
 
-[**QUIZ**](./quiz/aug-3-2025.md)
+[**PROFILE**](./profile/aug-6-2025.md)
 
-- ✅ UI and buttons respond quickly (within 0.8s).
-- ✅ Users can manually create, edit, and delete quizzes successfully.
-- ✅ Quizzes can be answered and submitted with results saved accurately.
-- ✅ Score calculation and quiz review (with correct answers, score, timestamp) function correctly.
-- ✅ Navigation (e.g., back to Library) works seamlessly.
-- ✅ Ellipsis icon renders properly and its delete option functions as expected.
-- ✅ Editing also works for AI-generated quizzes.
-- ⚠️ Sharing and quiz visibility/privacy features are not yet implemented.
-- ✋ UX Suggestion (Tilan): Use shaded circles for single-answer questions and visual indicators for answered and unanswered items to improve clarity and user experience.
-
-[**SETTINGS**](./settings/aug-3-2025.md)
-
-- ✅ Users can successfully change theme, email, name, and password.
-- ✅ All settings updates function properly with no errors.
-- ✅ Theme changes render correctly; account detail changes reflect as expected.
-- ✅ Can process email verification
+- Profile info displays, but some fields are still empty — Partially Passed
+- Badge system works, but redundant "first post" badge pop-ups — Passed with minor issue
