@@ -63,7 +63,7 @@ root-folder/ 		             => the top-level folder directory
 - [**Sherri Tilan**](https://github.com/Tsherii/quickease_2.0-reports)
 - [**Jalanie Baraocor**](https://github.com/jiyuutheosum/quickease_2.0-reports)
 
-## CONSOLIDATED LATEST REPORTS (AS OF AUGUST 6, 2025)
+## CONSOLIDATED LATEST REPORTS (AS OF AUGUST 11, 2025)
 
 _All contents in this section are the consolidated TLDRs from each test categories. This will be updated for every test iterations_
 
