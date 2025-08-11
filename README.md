@@ -74,3 +74,5 @@ _All contents in this section are the consolidated TLDRs from each test categori
 [**PROFILE**](./profile/aug-11-2025.md)
 
 - PARTIALLY PASSED: Previous issue with repetitive badge toast popup is now fixed. But there is an issue that potentially lies inside the forums as the badge seems to be dependent with it, meaning, even though certain conditions are properly met, any of the badge only takes effect when the user posts something inside the forums. Please look into this.
+
+- **UPDATE:** PASSED - Previously reported issue about badges being dependent to forums now fixed.
