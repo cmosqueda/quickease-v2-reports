@@ -67,39 +67,10 @@ root-folder/ 		             => the top-level folder directory
 
 _All contents in this section are the consolidated TLDRs from each test categories. This will be updated for every test iterations_
 
-[**ADMIN**](./admin/aug-6-2025.md)
+[**FORUMS**](./forums/aug-11-2025.md)
 
-- ✅ **All core features passed:** login, user search/view/edit, report viewing, email actions.
+- PASSED: Viewing all posts and infinite scroll functions properly for feature **LF021**, but ther is a cutoff date limit for how many posts can be fetched by the state management.
 
-- ⚠️ **Minor issue:** Email delivery is delayed.
+[**PROFILE**](./profile/aug-11-2025.md)
 
-- ⚠️ **Failures/Not done:**
-
-  - Delete user (manage users) – Not implemented
-  - Search reports (manage reports) – Not implemented
-  - Delete user via report management – Failed (404)
-
-- 💡 **Suggestions:** Add severity rating + resolve button for reports, log resolved reports for future moderation.
-
-[**AUTH**](./auth/aug-6-2025.md)
-
-- Forgot password flow (L007) works.
-- Password reset email sends successfully.
-
-[**FLASHCARDS**](./flashcards/aug-6-2025.md)
-
-- Keyboard controls now implemented
-
-[**FORUMS**](./forums/aug-6-2025.md)
-
-- Notifications modal (NF001) works.
-- Mark as read (NF002) works, but updates only after page refresh.
-
-[**NOTES**](./notes/aug-6-2025.md)
-
-- Study option buttons (LN005) are now functional. Generating quiz and flashcards from notes works and can be successfully saved via clicking study options.
-
-[**PROFILE**](./profile/aug-6-2025.md)
-
-- Profile info displays, but some fields are still empty — Partially Passed
-- Badge system works, but redundant "first post" badge pop-ups — Passed with minor issue
+- PARTIALLY PASSED: Previous issue with repetitive badge toast popup is now fixed. But there is an issue that potentially lies inside the forums as the badge seems to be dependent with it, meaning, even though certain conditions are properly met, any of the badge only takes effect when the user posts something inside the forums. Please look into this.
