@@ -76,3 +76,14 @@ _All contents in this section are the consolidated TLDRs from each test categori
 - PARTIALLY PASSED: Previous issue with repetitive badge toast popup is now fixed. But there is an issue that potentially lies inside the forums as the badge seems to be dependent with it, meaning, even though certain conditions are properly met, any of the badge only takes effect when the user posts something inside the forums. Please look into this.
 
 - **UPDATE:** PASSED - Previously reported issue about badges being dependent to forums now fixed.
+
+## CONSOLIDATED LATEST REPORTS (AS OF AUGUST 12, 2025)
+
+_All contents in this section are the consolidated TLDRs from each test categories. This will be updated for every test iterations_
+
+[**ADMIN**](./admin/aug-12-2025.md)
+
+- `AD006` – Delete user from Other Options: Not yet implemented
+- `AD009` – Search specific report: Not yet implemented
+- `AD010` – Delete reported post/comment: Passed, shows “Resolved - Deleted” status
+- `AD011` – Delete user via reports: Failed (404 backend route missing), recommend adding confirmation modal for caution
