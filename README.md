@@ -83,7 +83,7 @@ _All contents in this section are the consolidated TLDRs from each test categori
 
 [**ADMIN**](./admin/aug-12-2025.md)
 
-- `AD006` – Delete user from Other Options: Not yet implemented
-- `AD009` – Search specific report: Not yet implemented
-- `AD010` – Delete reported post/comment: Passed, shows “Resolved - Deleted” status
-- `AD011` – Delete user via reports: Failed (404 backend route missing), recommend adding confirmation modal for caution
+- `AD006` – (MANAGE USERS) Delete user from Other Options: Not yet implemented
+- `AD009` – (REPORT MANAGEMENT) Search specific report: Not yet implemented
+- `AD010` – (REPORT MANAGEMENT) Delete reported post/comment: Passed, shows “Resolved - Deleted” status
+- `AD011` – (REPORT MANAGEMENT) Delete user via reports: Failed (404 backend route missing), recommend adding confirmation modal for caution.
