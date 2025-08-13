@@ -63,19 +63,27 @@ root-folder/ 		             => the top-level folder directory
 - [**Sherri Tilan**](https://github.com/Tsherii/quickease_2.0-reports)
 - [**Jalanie Baraocor**](https://github.com/jiyuutheosum/quickease_2.0-reports)
 
-## CONSOLIDATED LATEST REPORTS (AS OF AUGUST 11, 2025)
+## CONSOLIDATED LATEST REPORTS (AS OF AUGUST 13, 2025)
 
 _All contents in this section are the consolidated TLDRs from each test categories. This will be updated for every test iterations_
 
-[**FORUMS**](./forums/aug-11-2025.md)
+[**ADMIN**](./admin/aug-13-2025.md)
 
-- PASSED: Viewing all posts and infinite scroll functions properly for feature **LF021**, but ther is a cutoff date limit for how many posts can be fetched by the state management.
+- **AD006** – Manage Users: Admin can now delete a user’s account from user management with confirmation modal; tested successfully.
+- **AD009** – Report Search: Search function for reported posts/comments works as intended; results displayed correctly.
+- **AD010** – Delete Reported Content: Admin can delete reported posts/comments; status updates to “Resolved – Deleted.”
+- **AD011** – Delete User via Report Management: Admin can delete a user account from report management if necessary; status updates to “Resolved.”
 
-[**PROFILE**](./profile/aug-11-2025.md)
+[**EMAIL SERVICE**](./email-service/aug-13-2025.md)
 
-- PARTIALLY PASSED: Previous issue with repetitive badge toast popup is now fixed. But there is an issue that potentially lies inside the forums as the badge seems to be dependent with it, meaning, even though certain conditions are properly met, any of the badge only takes effect when the user posts something inside the forums. Please look into this.
+- **ES004** – Request Email Change Verification: Initially failed (401 error) when clicking "verify email" button due to authentication requirement.
+- **ES004 Update**: Verification succeeded when the account was logged in prior to requesting verification; process works as intended in that case.
 
-- **UPDATE:** PASSED - Previously reported issue about badges being dependent to forums now fixed.
+### TILAN'S REPORT
+
+**SETTINGS**
+
+- ✅ LS006 (Profile Visibility Setting): Works as intended
 
 ## CONSOLIDATED LATEST REPORTS (AS OF AUGUST 12, 2025)
 
@@ -87,3 +95,47 @@ _All contents in this section are the consolidated TLDRs from each test categori
 - `AD009` – (REPORT MANAGEMENT) Search specific report: Not yet implemented
 - `AD010` – (REPORT MANAGEMENT) Delete reported post/comment: Passed, shows “Resolved - Deleted” status
 - `AD011` – (REPORT MANAGEMENT) Delete user via reports: Failed (404 backend route missing), recommend adding confirmation modal for caution.
+
+---
+
+### TILAN'S REPORT
+
+**FORUMS**
+
+- ✅ LF021 (Forum Infinite Scroll): Infinite scroll works smoothly; posts load correctly when scrolling.
+- ✅ Profile Viewing (PR001): Works correctly,
+  - ✋ Minor UX suggestion: add a back button when viewing other profiles.
+- ⭕ Not yet Implemented:
+  - Reports: Viewing reports for posts (FR001) and comments (FR002).
+  - Profile: Badge viewing (PR002).
+- ✋ Suggestions on Post Creation:
+  - Back button behavior, it should return to forum overview instead of remaining on the post page.
+  - Add a confirmation button after selecting attachments to ensure user confidence.
+
+**GENERATIVE-AI RELATED FEATURES**
+
+- ✋ UX suggestion:
+  - A toast notification in saving the generated notes.
+
+**FLASHCARDS**
+
+- ✅ Suggested keyboard controls for LF004 are implemented and working as expected.
+- ⭕ Unimplemented Feature:
+  - Flashcard set sharing via “more options” is not yet available.
+
+**QUIZZES**
+
+- ✅ Most quiz features are already implemented and working smoothly.
+- ✅ Core Functionality (LQ004): Users can answer and review saved quizzes without issues.
+- ⭕ Unimplemented Features:
+  - Quiz sharing via "more options" is not yet implemented.
+    Editing quiz visibility/privacy is also pending.
+- ✋ UX Suggestion:
+  - Use shaded circles for single-answer questions and visual indicators for answered and unanswered items to improve clarity and user experience.
+
+**SUMMARY NOTES**
+
+- ✅ Functional buttons are working perfectly
+- ⚠️ However, UX flow improvement is recommended — after saving a generated quiz, redirecting users to the Quizzes section would enhance usability.
+- ⭕ Unimplemented Feature
+  - Note sharing via “More Options” (LN009) is still not implemented.
