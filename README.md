@@ -63,79 +63,66 @@ root-folder/ 		             => the top-level folder directory
 - [**Sherri Tilan**](https://github.com/Tsherii/quickease_2.0-reports)
 - [**Jalanie Baraocor**](https://github.com/jiyuutheosum/quickease_2.0-reports)
 
-## CONSOLIDATED LATEST REPORTS (AS OF AUGUST 13, 2025)
+## CONSOLIDATED LATEST REPORTS (AS OF SEPTEMBER 3, 2025)
 
 _All contents in this section are the consolidated TLDRs from each test categories. This will be updated for every test iterations_
 
-[**ADMIN**](./admin/aug-13-2025.md)
+### MOBILE
 
-- **AD006** – Manage Users: Admin can now delete a user’s account from user management with confirmation modal; tested successfully.
-- **AD009** – Report Search: Search function for reported posts/comments works as intended; results displayed correctly.
-- **AD010** – Delete Reported Content: Admin can delete reported posts/comments; status updates to “Resolved – Deleted.”
-- **AD011** – Delete User via Report Management: Admin can delete a user account from report management if necessary; status updates to “Resolved.”
+[**AUTH**](./mobile/auth/sept-3-2025.md)
 
-[**EMAIL SERVICE**](./email-service/aug-13-2025.md)
+- ✅ Login and Signup modules are functional. Minor UX suggestion: Add password peek toggle for better usability.
+- ✅ Logout works as expected via the logout button.
+- ✅ Reset password takes user to the web version via email service.
+- 🚧 Forgot password not yet implemented.
 
-- **ES004** – Request Email Change Verification: Initially failed (401 error) when clicking "verify email" button due to authentication requirement.
-- **ES004 Update**: Verification succeeded when the account was logged in prior to requesting verification; process works as intended in that case.
+[**FLASHCARDS**](./mobile/flashcards/sept-3-2025.md)
 
-### TILAN'S REPORT
+- ✅ Manual creation, viewing, and editing of flashcard sets are fully functional.
+- 📌 Flashcards display well with clear sequencing and interactivity.
+- 🚧 Delete functionality, change visbility, and generate from notes are not yet implemented.
+- 📄 Generating flashcards from PDF is functional and efficient (under 30 seconds)
 
-**SETTINGS**
+[**FORUMS**](./mobile/forums/sept-3-2025.md)
 
-- ✅ LS006 (Profile Visibility Setting): Works as intended
+- ✅ Core features like reading, searching, creating posts, attaching study materials, commenting, and voting on posts/comments are functional.
+- ⚠️ Notifications are fetched in real time but need UI refinement (e.g., alert indicator on bell icon).
+- 🚧 Editing and deleting posts/comments, as well as threaded replies, are not yet implemented.
 
-## CONSOLIDATED LATEST REPORTS (AS OF AUGUST 12, 2025)
+[**NOTES**](./mobile/notes/sept-3-2025.md)
 
-_All contents in this section are the consolidated TLDRs from each test categories. This will be updated for every test iterations_
+- ✅ Creating, viewing, and editing notes are functional with minor UI/UX suggestions:
 
-[**ADMIN**](./admin/aug-12-2025.md)
+  - Improve text indentation consistency
+  - Apply custom font styling
+  - Add toggle for bottom toolgroup in editor
 
-- `AD006` – (MANAGE USERS) Delete user from Other Options: Not yet implemented
-- `AD009` – (REPORT MANAGEMENT) Search specific report: Not yet implemented
-- `AD010` – (REPORT MANAGEMENT) Delete reported post/comment: Passed, shows “Resolved - Deleted” status
-- `AD011` – (REPORT MANAGEMENT) Delete user via reports: Failed (404 backend route missing), recommend adding confirmation modal for caution.
+- 🚧 Delete note and change visibility features are not yet implemented.
+- ❌ Failed: Generate note summary from PDF or image (upload works, but content not generated and rendered)
 
----
+[**POMODORO**](./mobile/pomodoro/sept-3-2025.md)
 
-### TILAN'S REPORT
+- ✅ Pomodoro drawer toggle works as expected.
+- ❌ Customizing time intervals and accessing full timer display both fail due to a rendering issue (`Invalid RGBA format` error). Navigation and editing are blocked.
+- 🛠️ Root cause appears to be a UI rendering bug affecting multiple modules. Needs urgent fix to restore full Pomodoro functionality.
 
-**FORUMS**
+[**QUIZZES**](./mobile/quizzes/sept-3-2025.md)
 
-- ✅ LF021 (Forum Infinite Scroll): Infinite scroll works smoothly; posts load correctly when scrolling.
-- ✅ Profile Viewing (PR001): Works correctly,
-  - ✋ Minor UX suggestion: add a back button when viewing other profiles.
-- ⭕ Not yet Implemented:
-  - Reports: Viewing reports for posts (FR001) and comments (FR002).
-  - Profile: Badge viewing (PR002).
-- ✋ Suggestions on Post Creation:
-  - Back button behavior, it should return to forum overview instead of remaining on the post page.
-  - Add a confirmation button after selecting attachments to ensure user confidence.
+- ✅ Leaderboard viewing and quiz editing are functional. Editing works well but lacks options for time duration and randomization (available in web version).
+- ⚠️ Manual quiz creation is partially working; missing key configuration options.
+- ❌ Answering quizzes (both saved and shared) fails due to submission errors—toast popup appears, no data saved.
+- 🚧 Review, history, delete, change visibility, and generate from note features are not yet implemented.
+- 📃 Generating quiz from PDF is functional and efficient (under 30 seconds)
 
-**GENERATIVE-AI RELATED FEATURES**
+[**SETTINGS**](./mobile/settings/sept-3-2025.md)
 
-- ✋ UX suggestion:
-  - A toast notification in saving the generated notes.
+- ✅ All core settings features passed:
 
-**FLASHCARDS**
+  - Theme switching works smoothly.
+  - Email and name changes are functional.
+  - Email verification integrates with web interface.
+  - Profile visibility toggle and profile viewing operate as expected.
 
-- ✅ Suggested keyboard controls for LF004 are implemented and working as expected.
-- ⭕ Unimplemented Feature:
-  - Flashcard set sharing via “more options” is not yet available.
-
-**QUIZZES**
-
-- ✅ Most quiz features are already implemented and working smoothly.
-- ✅ Core Functionality (LQ004): Users can answer and review saved quizzes without issues.
-- ⭕ Unimplemented Features:
-  - Quiz sharing via "more options" is not yet implemented.
-    Editing quiz visibility/privacy is also pending.
-- ✋ UX Suggestion:
-  - Use shaded circles for single-answer questions and visual indicators for answered and unanswered items to improve clarity and user experience.
-
-**SUMMARY NOTES**
-
-- ✅ Functional buttons are working perfectly
-- ⚠️ However, UX flow improvement is recommended — after saving a generated quiz, redirecting users to the Quizzes section would enhance usability.
-- ⭕ Unimplemented Feature
-  - Note sharing via “More Options” (LN009) is still not implemented.
+- ⚠️ Minor limitations:
+  - No restriction yet on how often users can change email or name.
+  - Unverified accounts currently have full access—role-based restrictions not yet applied.
