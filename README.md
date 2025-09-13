@@ -23,7 +23,7 @@ root-folder/ 		             => the top-level folder directory
 
 ```
 
-## Format for writing a report’s content (this format is the standard whether you opt to write reports on docs, or on markdown file)
+## Format for writing a report’s content (this format is the standard whether you opt to write reports on docs, or on markdown file) - DEPRECATED
 
 - CODE NUMBER (insert a heading pls)
 - DESCRIPTION
@@ -63,7 +63,58 @@ root-folder/ 		             => the top-level folder directory
 - [**Sherri Tilan**](https://github.com/Tsherii/quickease_2.0-reports)
 - [**Jalanie Baraocor**](https://github.com/jiyuutheosum/quickease_2.0-reports)
 
-## CONSOLIDATED LATEST REPORTS (AS OF SEPTEMBER 3, 2025)
+## TESTING DOCUMENTATION RULES (Updated - Sept 13, 2025)
+
+- All test case references are stored in `catalog.md` with unique IDs:
+  - Axxx -> Auth module
+  - FLxxx -> Flashcards module
+  - FOxxx -> Forums module
+  - Nxxx -> Notes module
+  - PTxxx -> Pomodoro Timer module
+  - PFxxx -> Profile module
+  - Qxxx -> Quizzes module
+  - STxxx -> Settings module
+  - NAVxxx -> System Navigations (New)
+- Each catalog's feature logs follow this format:
+
+  - **FEAT_CODE: Feature name**
+    > Brief feature description
+
+- Test iterations remain on each file with its corresponding date (ex. `sept-3-2025.md`). However, it will now have this new format:
+
+```
+ALL TESTS FOR [Feature] ON [Date]
+
+TLDR:
+- 🚧 lorem ipsum dolor sit amet
+- ✅ lorem ipsum dolor sit amet
+- ❌ lorem ipsum dolor sit amet
+
+---
+
+# What was tested
+- **FEAT_xx: [Feature name]**
+  - Status: ✅ Passed / ❌ Failed / 🚧 Not implemented
+  - Notes: [Any details, errors, or suggestions]
+
+- **FEAT_xx: [Feature name]**
+  - Status:
+  - Notes:
+
+---
+
+# Comparison with last iteration ([Previous Date])
+- **FEAT_xx** – [e.g., “Still passing, no regressions”]
+- **FEAT_xx** – [e.g., “Now fixed, previously failed due to X”]
+- **FEAT_xx** – [e.g., “Still failing, same issue persists”]
+- **FEAT_xx** – [e.g., “Newly tested feature, no prior record”]
+
+```
+
+- This replaces the old “per-feature test file + consolidated notes” system. This reduces redundancy in re-documenting functional tests from previous test iterations.
+- Documentations before this change are still valid, though. Only the format and rulesets were changed.
+
+## CONSOLIDATED LATEST REPORTS (AS OF SEPTEMBER 13, 2025)
 
 _All contents in this section are the consolidated TLDRs from each test categories. This will be updated for every test iterations_
 
