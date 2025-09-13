@@ -122,11 +122,11 @@ _All contents in this section are the consolidated TLDRs from each test categori
 
 [**AUTH**](./mobile/auth/sept-13-2025.md)
 
-- ✅ AUTH001: Login – Functional; password peek option for password field suggested for better UX.
-- ✅ AUTH002: Signup – Functional; password peek option for password field suggested for better UX.
-- ✅ AUTH003: Reset Password – Functional; sends email service properly.
-- ✅ AUTH004: Logout – Functional, works as expected.
-- ❌ AUTH005: Forgot Password – Not implemented; no reset mechanism available on mobile.
+- ✅ A001: Login – Functional; password peek option for password field suggested for better UX.
+- ✅ A002: Signup – Functional; password peek option for password field suggested for better UX.
+- ✅ A003: Reset Password – Functional; sends email service properly.
+- ✅ A004: Logout – Functional, works as expected.
+- ❌ A005: Forgot Password – Not implemented; no reset mechanism available on mobile.
 
 [**FLASHCARDS**](./mobile/flashcards/sept-13-2025.md)
 
@@ -206,11 +206,11 @@ _All contents in this section are the consolidated TLDRs from each test categori
 
 | Module         | Test ID | Status | Summary                                                                                       |
 | -------------- | ------- | ------ | --------------------------------------------------------------------------------------------- |
-| **AUTH**       | AUTH001 | ✅     | Login functional; password peek suggested for better UX                                       |
-|                | AUTH002 | ✅     | Signup functional; password peek suggested for better UX                                      |
-|                | AUTH003 | ✅     | Reset Password functional; sends email properly                                               |
-|                | AUTH004 | ✅     | Logout functional                                                                             |
-|                | AUTH005 | ❌     | Forgot Password not implemented                                                               |
+| **AUTH**       | A001    | ✅     | Login functional; password peek suggested for better UX                                       |
+|                | A002    | ✅     | Signup functional; password peek suggested for better UX                                      |
+|                | A003    | ✅     | Reset Password functional; sends email properly                                               |
+|                | A004    | ✅     | Logout functional                                                                             |
+|                | A005    | ❌     | Forgot Password not implemented                                                               |
 | **FLASHCARDS** | FL001   | 🚧     | Create flashcard set manually; UX confusing, cannot fully edit/delete cards                   |
 |                | FL002   | ✅     | View flashcard set works as expected                                                          |
 |                | FL003   | ❌     | Edit/update flashcard set; can only add cards, editing/deleting not supported                 |
