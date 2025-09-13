@@ -13,14 +13,19 @@ This master catalog lists all test cases for `POMODORO TIMER -> PTxxx` module.
   > The user should be able to enable or disable the Pomodoro drawer display.
 
 - **PT003: Full timer display**
+
   > The user should be able to display full Pomodoro timer options by clicking the Pomodoro button option located at the bottom of the drawer.
+
+- **PT004: Timer operates accurately**
+  > When pomodoro is used/started, the timer should properly and accurately operate. The counts should be consistent and intervals/delays must be stable.
 
 ---
 
 ## In tabular format:
 
-| FEAT_CODE | Feature Name                       | Description                                                                                                                                |
-| --------- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| PT001     | Customize time intervals           | The user should be able to customize the durations for study sessions, long breaks, and short breaks, and save the changes.                |
-| PT002     | Enabling/disabling Pomodoro drawer | The user should be able to enable or disable the Pomodoro drawer display.                                                                  |
-| PT003     | Full timer display                 | The user should be able to display full Pomodoro timer options by clicking the Pomodoro button option located at the bottom of the drawer. |
+| FEAT_CODE | Feature Name                       | Description                                                                                                                                           |
+| --------- | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PT001     | Customize time intervals           | The user should be able to customize the durations for study sessions, long breaks, and short breaks, and save the changes.                           |
+| PT002     | Enabling/disabling Pomodoro drawer | The user should be able to enable or disable the Pomodoro drawer display.                                                                             |
+| PT003     | Full timer display                 | The user should be able to display full Pomodoro timer options by clicking the Pomodoro button option located at the bottom of the drawer.            |
+| PT004     | Timer operates accurately          | When pomodoro is used/started, the timer should properly and accurately operate. The counts should be consistent and intervals/delays must be stable. |
