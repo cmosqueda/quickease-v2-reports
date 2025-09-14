@@ -138,7 +138,7 @@ _All contents in this section are the consolidated TLDRs from each test categori
 - ⚠️ FL006: Generate a flashcard set from note – Passed with minor issues; card preview click triggers Call Stack error.
 - ⚠️ FL007: Generate a flashcard set from PDF – Passed with minor issues; same Call Stack error as FL006.
 
-[**FORUMS**](./mobile/forums/sept-3-2025.md)
+[**FORUMS**](./mobile/forums/sept-13-2025.md)
 
 - ✅ FO001: Read/view forum posts – Functional, no regressions.
 - ✅ FO002: Search post on forums – Passed, new categories added (newest, top upvotes, most comments).
@@ -163,7 +163,7 @@ _All contents in this section are the consolidated TLDRs from each test categori
 - ❌ NAV006: Error/fallback navigation – Deleted or null items (e.g., shared notes) trigger call stack errors instead of showing an error screen. Shared deletions should dynamically update in forum attachments.
 - ✅ NAV007: Automatic login for saved session – Automatically logs in saved sessions but currently directs to the user profile screen; should redirect to the forums screen.
 
-[**NOTES**](./mobile/notes/sept-3-2025.md)
+[**NOTES**](./mobile/notes/sept-13-2025.md)
 
 - ✅ N001: Create a note manually – Works properly, refinements needed in rich text editor (fonts, indentation).
 - ✅ N002: View a note – Functional, no issues found.
@@ -173,14 +173,14 @@ _All contents in this section are the consolidated TLDRs from each test categori
 - ❌ N006: Generate a note summary from PDF – Upload works but content is not generated/rendered.
 - ❌ N007: Generate a note summary from Image – Upload works but content is not generated/rendered.
 
-[**POMODORO**](./mobile/pomodoro/sept-3-2025.md)
+[**POMODORO**](./mobile/pomodoro/sept-13-2025.md)
 
 - ⚠️ PT001: Customize time intervals – Buggy. Save button doesn’t always apply changes.
 - ✅ PT002: Drawer display toggle – Works properly, no issues.
 - ✅ PT003: Full timer display – Works properly, no issues.
 - ⚠️ PT004: Timer operates accurately – Works in drawer display but counts abnormally fast in bottomsheet display.
 
-[**QUIZZES**](./mobile/quizzes/sept-3-2025.md)
+[**QUIZZES**](./mobile/quizzes/sept-13-2025.md)
 
 - ⚠️ Q001: Create a quiz manually – Partially passed. Functional but missing options (time duration, randomize).
 - ✅ Q002: Answer a quiz – Passed. Can now submit attempts.
@@ -194,7 +194,7 @@ _All contents in this section are the consolidated TLDRs from each test categori
 - ✅ Q010: Generate a quiz from note – Passed. Now implemented, works properly.
 - ✅ Q011: Generate a quiz from PDF – Passed. Remains functional.
 
-[**SETTINGS**](./mobile/settings/sept-3-2025.md)
+[**SETTINGS**](./mobile/settings/sept-13-2025.md)
 
 - ✅ ST001: Change theme – Passed, remained functional
 - ✅ ST002: Change email address – Passed, can change but limit enforcement needed
