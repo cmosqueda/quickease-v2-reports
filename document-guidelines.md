@@ -46,8 +46,14 @@ root-folder/ 		             => the top-level folder directory
   - NAVxxx -> System Navigations (New, for mobile only)
 - Each catalog's feature logs follow this format:
 
-  - **FEAT_CODE: Feature name**
-    > Brief feature description
+```
+**FEAT_CODE: Feature name**
+  - Description: _brief description here_
+  - Steps to perform:
+    1.  step 1
+    2.  step 2
+    3.  step 3
+```
 
 - Test iterations remain on each file with its corresponding date (ex. `sept-3-2025.md`). However, it will now have this new format:
 
