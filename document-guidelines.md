@@ -243,7 +243,7 @@ TLDR:
 
 - This replaces the old “per-feature test file + consolidated notes” system. This reduces redundancy in re-documenting functional tests from previous test iterations.
 - Documentations before this change are still valid, though. Only the format and rulesets were changed.
-- **Update (Sept. 20, 2025):** Deprecated all tests in the web/library directory, which previously contained library screen tests. The reason for deprecation is that the screen tests in this directory are better categorized as loosely coupled component tests rather than representing the entire Library module’s functionality. Moving forward, tests related to this module will be specified within their respective modules:
+- **Update (Sept. 20, 2025):** Deprecated all tests in the `web/library` directory, which previously contained library screen tests. The reason for deprecation is that the screen tests in this directory are better categorized as loosely coupled component tests rather than representing the entire Library module’s functionality. Moving forward, tests related to this module will be specified within their respective modules:
   - flashcards/ -> FLxxx
   - quizzes/ -> Qxxx
   - notes/ -> Nxxx
