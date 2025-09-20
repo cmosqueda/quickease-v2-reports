@@ -1,4 +1,4 @@
-# CONSOLIDATED LATEST REPORTS FOR MOBILE
+# CONSOLIDATED LATEST REPORTS FOR WEB
 
 _All contents in this section are the consolidated TLDRs from each test categories in web. This will be updated for every test iterations._
 
