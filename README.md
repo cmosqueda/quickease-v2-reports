@@ -10,3 +10,4 @@ Other Testers' repo:
 
 - [**Sherri Tilan**](https://github.com/Tsherii/quickease_2.0-reports)
 - [**Jalanie Baraocor**](https://github.com/jiyuutheosum/quickease_2.0-reports)
+- [**Leann Flores**](https://github.com/LeannFlores/quickease-2.0-reports)
