@@ -99,7 +99,7 @@ _All contents in this section are the consolidated TLDRs from each test categori
 - ✅ ST005: Change profile visibility – Passed; still functional
 - ✅ ST006: Reset password – Passed; functional (web only, no mobile screen).
 
-## MOBILE TESTS IN TABULAR FORMAT
+---
 
 ## MOBILE TESTS IN TABULAR FORMAT
 
