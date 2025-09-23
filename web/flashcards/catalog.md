@@ -47,7 +47,7 @@ This master catalog lists all test cases for `FLASHCARDS -> FLxxx` module.
 
   - Description: The user should be able to search for an existing flashcard set.
   - Steps to perform:
-    1. On the flashcards tab, click on the search bar
+    1. On the library inside a flashcards tab, click on the search bar
     2. Enter the title of the flashcard set you wish to search.
 
 ---

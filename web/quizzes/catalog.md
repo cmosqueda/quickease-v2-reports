@@ -77,7 +77,7 @@ This master catalog lists all test cases for `QUIZZES -> Qxxx` module.
 - **Q010: Search a quiz**
   - Description: The user should be able to search for an existing quiz.
   - Steps to perform:
-    1. On the quiz tab, click on the search bar
+    1. On the library inside a quiz tab, click on the search bar
     2. Enter the title of the quiz you wish to search.
 
 ---
