@@ -74,18 +74,25 @@ This master catalog lists all test cases for `ADMIN -> ADMINxxx` module.
     2. Expand the other options menu.
     3. Click on the delete user's account button.
 
+- **ADMIN010: Search a reported post/comment**
+  - Description: The admin should be able to search for a reported content by its title or content.
+  - Steps to perform:
+    1. On report management, click on the search bar.
+    2. Enter a title or text content on the field.
+
 ---
 
 ## In tabular format:
 
-| FEAT_CODE | Feature Name                       | Description                                                                   |
-| --------- | ---------------------------------- | ----------------------------------------------------------------------------- |
-| ADMIN001  | Login                              | The admin should be able to login and access the admin dashboard.             |
-| ADMIN002  | User search                        | The admin should be able to search for a user by its user name.               |
-| ADMIN003  | View user account                  | The admin should be able to view the user's account details.                  |
-| ADMIN004  | Update user account                | The admin should be able to update a user's account details.                  |
-| ADMIN005  | Delete user account                | The admin should be able to delete user's account.                            |
-| ADMIN006  | Send change password email service | The admin should be able to send a password reset email to the user's email.  |
-| ADMIN007  | Send email verification            | The admin should be able to send an email to verify the user’s account email. |
-| ADMIN008  | Delete reported post/comment       | The admin should be able to delete reported posts or comments.                |
-| ADMIN009  | Delete violator's account          | The admin should be able to delete a violator’s account after violations.     |
+| FEAT_CODE | Feature Name                       | Description                                                                        |
+| --------- | ---------------------------------- | ---------------------------------------------------------------------------------- |
+| ADMIN001  | Login                              | The admin should be able to login and access the admin dashboard.                  |
+| ADMIN002  | User search                        | The admin should be able to search for a user by its user name.                    |
+| ADMIN003  | View user account                  | The admin should be able to view the user's account details.                       |
+| ADMIN004  | Update user account                | The admin should be able to update a user's account details.                       |
+| ADMIN005  | Delete user account                | The admin should be able to delete user's account.                                 |
+| ADMIN006  | Send change password email service | The admin should be able to send a password reset email to the user's email.       |
+| ADMIN007  | Send email verification            | The admin should be able to send an email to verify the user’s account email.      |
+| ADMIN008  | Delete reported post/comment       | The admin should be able to delete reported posts or comments.                     |
+| ADMIN009  | Delete violator's account          | The admin should be able to delete a violator’s account after violations.          |
+| ADMIN010  | Search a reported post/comment     | The admin should be able to search for a reported content by its title or content. |
