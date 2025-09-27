@@ -68,17 +68,24 @@ This master catalog lists all test cases for `NOTES -> Nxxx` module.
     1. Click on the search button
     2. Enter the title of the note you wish to search.
 
+- **N009: Share a note via URL copy**
+  - Description: The user should be able to share a public note to external apps/third party by sharing its URL.
+  - Steps to perform:
+    1. Long press on any of the existing note. This should display the floating options.
+    2. Click on the share link.
+
 ---
 
 ## In tabular format:
 
-| FEAT_CODE | Feature Name                       | Description                                                                     |
-| --------- | ---------------------------------- | ------------------------------------------------------------------------------- |
-| N001      | Create a note manually             | The user should be able to create a new note through manual input.              |
-| N002      | View a note                        | The user should be able to view any existing notes.                             |
-| N003      | Edit/update a note                 | The user should be able to edit any existing note's content.                    |
-| N004      | Delete a note                      | The user should be able to delete any existing note.                            |
-| N005      | Change a note visibility           | The user should be able to change visibility of any existing note.              |
-| N006      | Generate a note summary from PDF   | The user should be able to upload a PDF and generate a summary note from it.    |
-| N007      | Generate a note summary from Image | The user should be able to upload an image and generate a summary note from it. |
-| N008      | Search a note                      | The user should be able to search for an existing note.                         |
+| FEAT_CODE | Feature Name                       | Description                                                                                     |
+| --------- | ---------------------------------- | ----------------------------------------------------------------------------------------------- |
+| N001      | Create a note manually             | The user should be able to create a new note through manual input.                              |
+| N002      | View a note                        | The user should be able to view any existing notes.                                             |
+| N003      | Edit/update a note                 | The user should be able to edit any existing note's content.                                    |
+| N004      | Delete a note                      | The user should be able to delete any existing note.                                            |
+| N005      | Change a note visibility           | The user should be able to change visibility of any existing note.                              |
+| N006      | Generate a note summary from PDF   | The user should be able to upload a PDF and generate a summary note from it.                    |
+| N007      | Generate a note summary from Image | The user should be able to upload an image and generate a summary note from it.                 |
+| N008      | Search a note                      | The user should be able to search for an existing note.                                         |
+| N009      | Share a note via URL copy          | The user should be able to share a public note to external apps/third party by sharing its URL. |

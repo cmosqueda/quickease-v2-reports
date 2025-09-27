@@ -28,22 +28,27 @@ This master catalog lists all test cases for `AUTHENTICATION -> Axxx` module.
     1. Make sure the user account was already logged in.
     2. On the drawer navigation, click on the logout button.
 
-- **A004: Forgot Password**
+- **A004: Forgot Password** [DEPRECATED]
+
   - Description: The user should be able to reset a forgotten password.
   - Steps to perform:
+
     1. On the login screen, click on the **forgot password** link text.
     2. Provide the registered email address to send the password reset request. Then, click on the request bar button to confirm the action.
     3. Go to your registered email's inbox. Look for an email sent by QuickEase's email service adn access it. This should direct user to a **reset password screen** to process password reset.
     4. On the **reset password screen**, enter the required data like the new password.
     5. Click on the verify bar button to confirm password reset.
 
+  - **LOG UPDATE SEPTEMBER 27, 2025:**
+    - The `A004: Forgot Password` module is now a deprecated feature for mobile app. This feature will be implemented on web only.
+
 ---
 
 ## In tabular format:
 
-| FEAT_CODE | Feature Name    | Description                                                                                    |
-| --------- | --------------- | ---------------------------------------------------------------------------------------------- |
-| A001      | Login           | The user should be able to log in with registered user credentials.                            |
-| A002      | Signup          | The user should be able to sign up with details and accept the application’s terms/conditions. |
-| A003      | Logout          | The user should be able to log out of their account.                                           |
-| A004      | Forgot Password | The user should be able to reset a forgotten password.                                         |
+| FEAT_CODE             | Feature Name    | Description                                                                                    |
+| --------------------- | --------------- | ---------------------------------------------------------------------------------------------- |
+| A001                  | Login           | The user should be able to log in with registered user credentials.                            |
+| A002                  | Signup          | The user should be able to sign up with details and accept the application’s terms/conditions. |
+| A003                  | Logout          | The user should be able to log out of their account.                                           |
+| A004 **[DEPRECATED]** | Forgot Password | The user should be able to reset a forgotten password.                                         |

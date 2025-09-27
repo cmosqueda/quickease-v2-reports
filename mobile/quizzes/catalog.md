@@ -96,10 +96,17 @@ This master catalog lists all test cases for `QUIZZES -> Qxxx` module.
     4. Perform CRUD operations or save the generated quiz.
 
 - **Q012: Search a quiz**
+
   - Description: The user should be able to search for an existing quiz.
   - Steps to perform:
     1. Click on the search button
     2. Enter the title of the quiz you wish to search.
+
+- **Q013: Share a quiz via URL copy**
+  - Description: The user should be able to share a public quiz to external apps/third party by sharing its URL.
+  - Steps to perform:
+    1. Long press on any of the existing quiz. This should display the floating options.
+    2. Click on the share link.
 
 ---
 
@@ -119,3 +126,4 @@ This master catalog lists all test cases for `QUIZZES -> Qxxx` module.
 | Q010      | Generate a quiz from note       | The user should be able to pick an existing note and generate a quiz from it.                                              |
 | Q011      | Generate a quiz from PDF        | The user should be able to pick a PDF and generate a quiz from it.                                                         |
 | Q012      | Search a quiz                   | The user should be able to search for an existing quiz.                                                                    |
+| Q013      | Share a quiz via URL copy       | The user should be able to share a public quiz to external apps/third party by sharing its URL.                            |

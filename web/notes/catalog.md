@@ -50,15 +50,22 @@ This master catalog lists all test cases for `NOTES -> Nxxx` module.
     1. On the notes screen via library, click on the search bar.
     2. Enter the title of the note you wish to search.
 
+- **N007: Share a note via URL copy**
+  - Description: The user should be able to share a public note to external apps/third party by sharing its URL.
+  - Steps to perform:
+    1. On the library inside a notes tab, access a note.
+    2. Click on the share link.
+
 ---
 
 ## In tabular format:
 
-| FEAT_CODE | Feature Name             | Description                                                        |
-| --------- | ------------------------ | ------------------------------------------------------------------ |
-| N001      | Create a note manually   | The user should be able to create a new note through manual input. |
-| N002      | View a note              | The user should be able to view any existing notes.                |
-| N003      | Edit/update a note       | The user should be able to edit any existing note's content.       |
-| N004      | Delete a note            | The user should be able to delete any existing note.               |
-| N005      | Change a note visibility | The user should be able to change visibility of any existing note. |
-| N006      | Search a note            | The user should be able to search for an existing note.            |
+| FEAT_CODE | Feature Name              | Description                                                                                     |
+| --------- | ------------------------- | ----------------------------------------------------------------------------------------------- |
+| N001      | Create a note manually    | The user should be able to create a new note through manual input.                              |
+| N002      | View a note               | The user should be able to view any existing notes.                                             |
+| N003      | Edit/update a note        | The user should be able to edit any existing note's content.                                    |
+| N004      | Delete a note             | The user should be able to delete any existing note.                                            |
+| N005      | Change a note visibility  | The user should be able to change visibility of any existing note.                              |
+| N006      | Search a note             | The user should be able to search for an existing note.                                         |
+| N007      | Share a note via URL copy | The user should be able to share a public note to external apps/third party by sharing its URL. |

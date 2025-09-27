@@ -8,6 +8,30 @@ _All contents in this section are the consolidated TLDRs from each test categori
 
 ## WEB TESTS IN LIST FORMAT
 
+### FROM SHERRI NICOLE TILAN (SEPTEMBER 24, 2025)
+
+[**ADMIN**](https://github.com/Tsherii/quickease_2.0-reports/blob/main/admin/sept-24-25.md)
+
+- ✅ ADMIN001 (Login): Works correctly; redirects to dashboard.
+- ⭕ ADMIN002 (User Search): Not yet implemented.
+  - ✅ Reviewed by Mosqueda, **ADMIN002 User search** is implemented already.
+- ✅ ADMIN003 (View Account): User details display correctly.
+- ✅ ADMIN004 (Update Account): Updates save and reflect.
+- ✅ ADMIN005 (Delete Account): Accounts removed successfully.
+- ✅ ADMIN006 (Password Reset Email): Reset link sent and received.
+- ✅ ADMIN007 (Verification Email): Verification link sent and functional.
+- 🚧 ADMIN008 (Delete Reported Content): Partially passed; only reported posts show, reported comments missing.
+- ✅ ADMIN009 (Delete Violator): Violator accounts removed successfully.
+- ✅ ADMIN010 (Search Reports): Works correctly.
+
+✋ **Suggestions**
+
+- ADMIN001 (Login): Add sorting for user accounts by creation date in Manage User Dashboard.
+- Reports Management Dashboard: Add sorting/filtering by date, unresolved reports shown first.
+- ADMIN004 (Update Account): Notify users when admins change their account details.
+- ADMIN008 (Delete Reported Content): Add a warning pop-up before permanent deletion.
+- ADMIN010 (Search Reports): Add a back button to return to the dashboard.
+
 ### FROM SHERRI NICOLE TILAN (SEPTEMBER 22, 2025)
 
 [**PROFILE**](https://github.com/Tsherii/quickease_2.0-reports/blob/main/profile/sept-20-25.md)
@@ -34,6 +58,10 @@ _All contents in this section are the consolidated TLDRs from each test categori
 ---
 
 ## WEB TESTS IN TABULAR FORMAT
+
+### FROM SHERRI NICOLE TILAN (SEPTEMBER 24, 2025)
+
+### FROM SHERRI NICOLE TILAN (SEPTEMBER 22, 2025)
 
 | Module  | Test ID | Status | Summary                                                                                                                            |
 | ------- | ------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------- |

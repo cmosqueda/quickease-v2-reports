@@ -75,10 +75,17 @@ This master catalog lists all test cases for `QUIZZES -> Qxxx` module.
     2. Click on the set to public/private option.
 
 - **Q010: Search a quiz**
+
   - Description: The user should be able to search for an existing quiz.
   - Steps to perform:
     1. On the library inside a quiz tab, click on the search bar
     2. Enter the title of the quiz you wish to search.
+
+- **Q011: Share a quiz via URL copy**
+  - Description: The user should be able to share a public quiz to external apps/third party by sharing its URL.
+  - Steps to perform:
+    1. On the library inside a quiz tab, access a quiz.
+    2. Click on the share link.
 
 ---
 
@@ -96,3 +103,4 @@ This master catalog lists all test cases for `QUIZZES -> Qxxx` module.
 | Q008      | Delete a quiz                   | The user should be able to delete an existing quiz data.                                                                   |
 | Q009      | Change quiz visibility          | The user should be able to change visibility of existing quiz data.                                                        |
 | Q010      | Search a quiz                   | The user should be able to search for an existing quiz.                                                                    |
+| Q011      | Share a quiz via URL copy       | The user should be able to share a public quiz to external apps/third party by sharing its URL.                            |

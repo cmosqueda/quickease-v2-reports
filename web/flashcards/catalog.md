@@ -50,15 +50,22 @@ This master catalog lists all test cases for `FLASHCARDS -> FLxxx` module.
     1. On the library inside a flashcards tab, click on the search bar
     2. Enter the title of the flashcard set you wish to search.
 
+- **FL007: Share a flashcard via URL copy**
+  - Description: The user should be able to share a public flashcard set to external apps/third party by sharing its URL.
+  - Steps to perform:
+    1. On the library inside a flashcards tab, access a flashcard set.
+    2. Click on the share link.
+
 ---
 
 ## In tabular format:
 
-| FEAT_CODE | Feature Name                      | Description                                                                 |
-| --------- | --------------------------------- | --------------------------------------------------------------------------- |
-| FL001     | Create a flashcard set manually   | The user should be able to create flashcard sets through manual input.      |
-| FL002     | View a flashcard set              | The user should be able to view the contents of any existing flashcards.    |
-| FL003     | Edit/update a flashcard set       | The user should be able to edit any existing flashcard set's content.       |
-| FL004     | Delete a flashcard set            | The user should be able to delete any existing flashcard set.               |
-| FL005     | Change a flashcard set visibility | The user should be able to change visibility of any existing flashcard set. |
-| FL006     | Search a flashcard set            | The user should be able to search for an existing flashcard set.            |
+| FEAT_CODE | Feature Name                      | Description                                                                                              |
+| --------- | --------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| FL001     | Create a flashcard set manually   | The user should be able to create flashcard sets through manual input.                                   |
+| FL002     | View a flashcard set              | The user should be able to view the contents of any existing flashcards.                                 |
+| FL003     | Edit/update a flashcard set       | The user should be able to edit any existing flashcard set's content.                                    |
+| FL004     | Delete a flashcard set            | The user should be able to delete any existing flashcard set.                                            |
+| FL005     | Change a flashcard set visibility | The user should be able to change visibility of any existing flashcard set.                              |
+| FL006     | Search a flashcard set            | The user should be able to search for an existing flashcard set.                                         |
+| FL007     | Share a flashcard via URL copy    | The user should be able to share a public flashcard set to external apps/third party by sharing its URL. |
